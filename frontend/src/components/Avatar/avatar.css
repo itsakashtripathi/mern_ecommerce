@@ -1,0 +1,25 @@
+.avatar_container {
+  cursor: pointer;
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  background-color: #ededed;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-family: Public Sans, sans-serif;
+  font-size: 1.25rem;
+  line-height: 1;
+  overflow: hidden;
+  user-select: none;
+}
+
+.avatar_img {
+  text-align: center;
+  object-fit: cover;
+  width: 1.8em;
+  height: 1.8em;
+  border-radius: 50%;
+}
