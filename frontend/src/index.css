@@ -5,8 +5,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: "Public Sans", sans-serif;
 }
 
 #root {
   height: 100%;
 }
+
+/* Bootstrap styles update start */
+
+/* Bootstrap styles update end */
