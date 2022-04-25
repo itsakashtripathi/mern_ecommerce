@@ -1,0 +1,17 @@
+.footer {
+  text-align: center;
+}
+
+.footer > p {
+  font-size: 0.75rem;
+}
+
+.link {
+  text-decoration: none !important;
+  color: #00ab55;
+}
+
+.link:hover {
+  text-decoration: underline !important;
+  color: #00ab55;
+}

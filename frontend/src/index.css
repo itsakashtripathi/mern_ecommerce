@@ -15,6 +15,10 @@ body {
   height: 100%;
 }
 
+.pointer {
+  cursor: pointer;
+}
+
 /* Bootstrap styles update start */
 
 /* Bootstrap styles update end */
