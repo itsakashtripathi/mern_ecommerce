@@ -35,9 +35,9 @@ const Navbar = () => {
               <a className="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Link</a>
+              <a className="nav-link" href="#">Cart</a>
             </li>
-            <li className="nav-item dropdown">
+            {/* <li className="nav-item dropdown">
               <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Dropdown
               </a>
@@ -47,12 +47,23 @@ const Navbar = () => {
                 <li><hr className="dropdown-divider" /></li>
                 <li><a className="dropdown-item" href="#">Something else here</a></li>
               </ul>
-            </li>
+            </li> */}
             {/* <li className="nav-item">
               <a className="nav-link disabled">Disabled</a>
             </li> */}
           </ul>
-          <Avatar avatar={avatar} />
+          <div className='dropdown'>
+            <div  id="dProfile" data-bs-toggle="dropdown" aria-expanded="false">
+              <Avatar avatar={avatar} />
+            </div>
+            {/* dropdown-menu-end */}
+            <ul className="dropdown-menu" aria-labelledby="dProfile">
+                <li><a className="dropdown-item" href="#">Login</a></li>
+                <li><a className="dropdown-item" href="#">Sign Up</a></li>
+                <li><hr className="dropdown-divider custom_hr" /></li>
+                <li><a className="dropdown-item" href="#">Settings</a></li>
+              </ul>
+          </div>
         </div>
       </div>
     </nav>

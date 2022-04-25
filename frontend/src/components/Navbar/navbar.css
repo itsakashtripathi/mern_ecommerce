@@ -24,3 +24,29 @@
 .nav-item > .active {
   color: rgb(0, 171, 85) !important;
 }
+
+/* Dropdown styles start */
+.dropdown-menu {
+  border: 0 !important;
+  top: 60px !important;
+  position: absolute;
+  padding: 10px;
+  border-radius: 16px;
+  box-shadow: rgb(145 158 171 / 16%) 0px 0px 12px 0px;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+  color: #1e2125;
+  background-color: #e9ecef69;
+  border-radius: 5px;
+}
+
+.dropdown-divider,
+.custom_hr,
+hr {
+  border-top: none !important;
+  background-color: unset !important;
+  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='%23B9B9B9FF' stroke-width='4' stroke-dasharray='6%2c 14' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+}
+/* Dropdown styles end */
