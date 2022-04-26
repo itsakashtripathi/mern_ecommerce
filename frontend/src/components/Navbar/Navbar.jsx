@@ -57,7 +57,7 @@ const Navbar = () => {
               <Avatar avatar={avatar} />
             </div>
             {/* dropdown-menu-end */}
-            <ul className="dropdown-menu" aria-labelledby="dProfile">
+            <ul className="dropdown-menu dropdown-menu-end" aria-labelledby="dProfile">
                 <li><a className="dropdown-item" href="#">Login</a></li>
                 <li><a className="dropdown-item" href="#">Sign Up</a></li>
                 <li><hr className="dropdown-divider custom_hr" /></li>
