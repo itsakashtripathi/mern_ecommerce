@@ -1,3 +1,4 @@
+import Rating from "../Rating/Rating";
 import "./card.css";
 
 export default function Card({ product }) {
@@ -9,7 +10,11 @@ export default function Card({ product }) {
         alt=""
         draggable="false"
       />
-      <div className="card_text">{product.name}</div>
+      <div className="card_footer">
+        <div className="card_text">{product.name}</div>
+        <Rating rating={product.rating} />
+        <div className="card_text">${product.price}</div>
+      </div>
     </div>
   );
 }

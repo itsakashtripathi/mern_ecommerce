@@ -19,8 +19,10 @@
 
 .card_text {
   font-weight: 600;
-  line-height: 1.5;
   font-size: 0.875rem;
-  margin-top: 8px;
+}
+
+.card_footer {
   padding: 8px;
+  line-height: 2;
 }
