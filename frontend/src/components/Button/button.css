@@ -1,0 +1,39 @@
+.btns {
+  height: 22px;
+  min-width: 22px;
+  line-height: 0;
+  border-radius: 6px;
+  cursor: default;
+  align-items: center;
+  white-space: nowrap;
+  display: inline-flex;
+  justify-content: center;
+  padding: 0px 8px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  margin-left: 8px;
+}
+
+.blue_btns {
+  color: #0c53b7;
+  background-color: rgba(24, 144, 255, 0.16);
+  filter: drop-shadow(2px 2px 2px rgba(24, 144, 255, 0.48));
+}
+
+.green_btns {
+  color: #00ab55;
+  background-color: rgba(0, 171, 85, 0.08);
+  filter: drop-shadow(2px 2px 2px rgba(0, 171, 85, 0.48));
+}
+
+.yellow_btns {
+  color: #ffeb3b;
+  background-color: rgba(255, 235, 59, 0.12);
+  filter: drop-shadow(2px 2px 2px rgba(255, 235, 59, 0.3));
+}
+
+.red_btns {
+  color: #ff4842;
+  background-color: rgba(244, 67, 54, 0.11);
+  filter: drop-shadow(2px 2px 2px rgba(244, 67, 54, 0.4));
+}
