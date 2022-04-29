@@ -1,9 +1,5 @@
 .btns {
-  height: 22px;
-  min-width: 22px;
-  line-height: 0;
   border-radius: 6px;
-  cursor: default;
   align-items: center;
   white-space: nowrap;
   display: inline-flex;

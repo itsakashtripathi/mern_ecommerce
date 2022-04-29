@@ -1,5 +1,6 @@
 import Logo from "../../assets/images/amazona_logo_32.png";
 import Tag from "../Tag/Tag";
+import Button from "../Button/Button";
 import Avatar from "../Avatar/Avatar";
 import "./navbar.css";
 
@@ -7,6 +8,13 @@ const Navbar = () => {
   var tagStyle = {
     text: "v3.4.0",
     color: "green",
+  };
+
+  var btnStyle = {
+    text: "Search",
+    color: "green",
+    cursor: "pointer",
+    fa_logo: "fa fa-search",
   };
 
   var avatar = {
@@ -39,10 +47,15 @@ const Navbar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          {/* <form className="d-flex ms-auto">
-            <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-            <button className="btn btn-outline-success" type="submit">Search</button>
-          </form> */}
+          <form className="d-flex ms-auto w-50">
+            <input
+              className="form-control me-2 search_box"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <Button btnStyle={btnStyle} type="submit" />
+          </form>
           <ul className="navbar-nav  mb-2 mb-lg-0 ms-auto">
             <li className="nav-item">
               <a className="nav-link active" aria-current="page" href="#">
