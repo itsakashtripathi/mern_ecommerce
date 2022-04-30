@@ -54,12 +54,21 @@ hr {
 .search_box,
 .search_box:focus {
   border-color: #e2f5ec;
+  color: #9b9b9b;
 }
 
 .search_box:focus {
-  box-shadow: 0 0 0 0.25rem rgb(226 245 236);
+  box-shadow: 0 0 0 0.1rem rgb(226 245 236);
 }
 
 .search_box::placeholder {
   color: #e2f5ec;
+}
+
+/* removes the ‘X’ from Chrome search box (input field)*/
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
 }
