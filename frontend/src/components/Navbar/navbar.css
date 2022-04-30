@@ -51,6 +51,7 @@ hr {
 }
 /* Dropdown styles end */
 
+/* Search Box style start */
 .search_box,
 .search_box:focus {
   border-color: #e2f5ec;
@@ -72,3 +73,15 @@ input[type="search"]::-webkit-search-results-button,
 input[type="search"]::-webkit-search-results-decoration {
   display: none;
 }
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: #00ab55;
+  background: #e2f5ec;
+}
+
+::selection {
+  color: #00ab55;
+  background: #e2f5ec;
+}
+/* Search Box style end */
