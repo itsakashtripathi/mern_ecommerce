@@ -51,6 +51,7 @@ const Navbar = () => {
             <input
               className="form-control me-2 search_box"
               type="search"
+              spellcheck="false"
               placeholder="Search"
               aria-label="Search"
             />
