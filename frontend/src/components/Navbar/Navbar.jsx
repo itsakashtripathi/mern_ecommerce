@@ -22,8 +22,7 @@ const Navbar = () => {
   };
 
   return (
-    // fixed-top
-    <nav className="navbar navbar-expand-lg navbar-light bg-light p-3 mb-5 bg-body rounded">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light p-3 mb-5 bg-body rounded fixed-top">
       <div className="nav_style"></div>
       <div className="container">
         <a className="navbar-brand" href="#">

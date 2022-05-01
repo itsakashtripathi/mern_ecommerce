@@ -8,7 +8,7 @@
   border-radius: 50%;
   position: absolute;
   width: calc(100% - 48px);
-  box-shadow: rgb(145 158 171 / 16%) 0px 8px 16px 0px;
+  box-shadow: rgb(226 245 236 / 72%) 0px 10px 10px -8px;
 }
 
 .nav-link {
