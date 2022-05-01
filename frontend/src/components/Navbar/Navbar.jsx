@@ -34,7 +34,7 @@ const Navbar = () => {
           />
           <Tag tagStyle={tagStyle} />
         </a>
-        <button
+        {/* <button
           className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
@@ -44,7 +44,7 @@ const Navbar = () => {
           aria-label="Toggle navigation"
         >
           <span className="navbar-toggler-icon"></span>
-        </button>
+        </button> */}
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <form className="d-flex ms-auto w-50">
             <input
