@@ -25,6 +25,19 @@
   color: rgb(0, 171, 85) !important;
 }
 
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pjxzdmcgdmlld0JveD0iMCAwIDMyIDMyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjx0aXRsZS8+PGcgZGF0YS1uYW1lPSJtZW51ICIgaWQ9Im1lbnVfIj48cGF0aCBkPSJNMjksNkgzQTEsMSwwLDAsMCwzLDhIMjlhMSwxLDAsMCwwLDAtMloiLz48cGF0aCBkPSJNMywxN0gxNmExLDEsMCwwLDAsMC0ySDNhMSwxLDAsMCwwLDAsMloiLz48cGF0aCBkPSJNMjUsMjRIM2ExLDEsMCwwLDAsMCwySDI1YTEsMSwwLDAsMCwwLTJaIi8+PC9nPjwvc3ZnPg==") !important;
+}
+
+.navbar-light .navbar-toggler {
+  border: none !important;
+}
+
+.navbar-toggler:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
 /* Dropdown styles start */
 .dropdown-menu {
   border: 0 !important;
